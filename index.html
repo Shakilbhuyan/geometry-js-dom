@@ -23,15 +23,15 @@
        <section class="container mt-5 mb-2 d-flex flex-md-row flex-column">
         <!-- triangle -->
          <div class="row gap-3">
-         <div class="col-md-3 col-12 border">
+         <div  class="col-md-3 col-12 border">
           <img src="images/triangle.png" alt="" class="img-fluid">
           <h1>Triangle</h1>
           <p>Area(A) = <span>0.5 x b x h</span></p>
           <form action="" class="d-flex">
-            <input class="w-50" type="text">cm 
-            <input class="w-50" type="text">cm
+            <input id="triangle-value-1" class="w-50" type="text">cm 
+            <input id="triangle-value-2" class="w-50" type="text">cm
           </form>
-          <button class="btn btn-primary mt-3">Calculate</button>
+          <button id="btn-triangle" class="btn btn-primary mt-3">Calculate</button>
          </div>
          <!-- Ractangle -->
          <div class="col-md-3 col-12 border">
@@ -84,34 +84,9 @@
           <div class="border mt-2 p-2 container">
             <h3 class="text-center">Area Calculatation</h3>
             <div class="d-flex justify-content-evenly">
-              <p>1) Triangle</p>
-              <p><span>12</span>cm<sup>2</sup></p>
+              <p>1) <span>Area</span> 
+              <span id="tri-text">12</span>cm<sup>2</sup></p>
               <button class="btn btn-primary mb-2">Convert to m<sup>2</sup></button>
-            </div>
-            <div class="d-flex justify-content-evenly">
-              <p>2)Ractangle</p>
-              <p><span>12</span>cm<sup>2</sup></p>
-              <button class="btn btn-primary mb-2">Convert to m<sup>2</sup></button>
-            </div>
-            <div class="d-flex justify-content-evenly">
-              <p>3)Parallelogram</p>
-              <p><span>12</span>cm<sup>2</sup></p>
-              <button class="btn btn-primary mb-2">Convert to m<sup>2</sup></button>
-            </div>
-            <div class="d-flex justify-content-evenly">
-              <p>4)Rhombus</p>
-              <p><span>12</span>cm<sup>2</sup></p>
-              <button class="btn btn-primary mb-2">Convert to m<sup>2</sup></button>
-            </div>
-            <div class="d-flex justify-content-evenly">
-              <p>5)pentagon</p>
-              <p><span>12</span>cm<sup>2</sup></p>
-              <button class="btn btn-primary mb-2">Convert to m<sup>2</sup></button>
-            </div>
-            <div class="d-flex justify-content-evenly">
-              <p>6)Ellipse</p>
-              <p><span>12</span>cm<sup>2</sup></p>
-              <button class="btn btn-primary">Convert to m<sup>2</sup></button>
             </div>
           </div>
        </section>
